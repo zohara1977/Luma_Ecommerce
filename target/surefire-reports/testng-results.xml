@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="21794" started-at="2022-12-17T20:33:06Z" finished-at="2022-12-17T20:33:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Luma.us.runner.MyRunner@52525845]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Luma.us.runner" duration-ms="21794" started-at="2022-12-17T20:33:06Z" finished-at="2022-12-17T20:33:28Z">
+      <class name="Luma.us.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Luma.us.runner.MyRunner@52525845]" name="setUpClass" is-config="true" duration-ms="267" started-at="2022-12-17T20:33:06Z" finished-at="2022-12-17T20:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Luma.us.runner.MyRunner@52525845]" name="runScenario" duration-ms="21391" started-at="2022-12-17T20:33:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-17T20:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can login to the application with valid credentials and purchase the specific men's jacket."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[valid user can purchase the men jacket.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Luma.us.runner.MyRunner@52525845]" name="tearDownClass" is-config="true" duration-ms="119" started-at="2022-12-17T20:33:28Z" finished-at="2022-12-17T20:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Luma.us.runner.MyRunner -->
+    </test> <!-- Luma.us.runner -->
+  </suite> <!-- Suite1 -->
+</testng-results>
